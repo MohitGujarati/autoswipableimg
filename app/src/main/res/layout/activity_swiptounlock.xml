@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swiptounlock">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/unlockLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide to Unlock"
+            android:textSize="24sp"
+            android:layout_centerInParent="true" />
+
+        <SeekBar
+            android:id="@+id/unlockSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:thumb="@drawable/ic_android_red"
+            android:max="100" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
